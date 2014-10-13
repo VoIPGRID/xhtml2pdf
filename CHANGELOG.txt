@@ -1,6 +1,13 @@
  CHANGELOG
 =========
 
+Version 0.0.4-stable
+--------------------
+
+* Better version pinning
+* Improved exception handling in CSS parser
+
+
 Version 0.0.4
 -------------
 
