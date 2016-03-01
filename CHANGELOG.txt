@@ -1,6 +1,12 @@
  CHANGELOG
 =========
 
+Version 0.0.4-vg1
+--------------------
+
+* Pillow >= 3.1.1 support
+
+
 Version 0.0.4-stable
 --------------------
 
@@ -28,7 +34,7 @@ The following changelog entries were relevant before the maintainer change.
 ********************************************************************************
 
 Version 3.0.33, 2010-06-16
-- NEW: Changed license to Apache License 2.0, now completely Open Source 
+- NEW: Changed license to Apache License 2.0, now completely Open Source
        without any charging. Feel free to continue or for this project.
 - FIX: Empty cells now collapse
 
@@ -36,9 +42,9 @@ Version 3.0.32, 2009-05-08
 
 - NEW: New command line option '--base' to specify base path if input comes
        via STDIN
-- FIX: The 'keep in frame' feature for tables did not work inside of static 
+- FIX: The 'keep in frame' feature for tables did not work inside of static
        frames (Arun Shanker Prasad)
-- FIX: Small typos 
+- FIX: Small typos
 
 Version 3.0.31, 2009-05-04
 
@@ -61,7 +67,7 @@ Version 3.0.30, 2009-03-27
 - FIX: Small bug fix for show_error_as_pdf
 - FIX: Demos used os.startfile which is not supported on non Windows OSes
 - FIX: Table available height threw exceptions
-- FIX: Switched from urllib2 to httplib for loading external sources 
+- FIX: Switched from urllib2 to httplib for loading external sources
 - FIX: Correct homepage and download page in setup.py
 - FIX: Paragraphs in lists repeated the bullet
 - FIX: Tables now support -pdf-keep-with-next
